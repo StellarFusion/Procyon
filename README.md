@@ -1,2 +1,73 @@
-# Procyon
-Procyon is a programming language developed specifically for the Raspberry Pi Pico. It is designed to be accessible for beginners while still powerful for advanced users. Procyon offers a simple and understandable syntax for programming on the Pico platform.
+<p align="center">
+  <img src="Procyon.svg" width="200" alt="Procyon Logo"/>
+</p>
+
+# Procyon Language  
+###### V1.0.0  
+
+Procyon is a programming language developed specifically for the Raspberry Pi Pico. Procyon targets programmers who are new to the Raspberry Pi Pico and also for experts! It offers simple and understandable syntax for programming.
+
+---
+
+### 🌟 Features:
+
+✅ Syntax highlighting  
+✅ Supports all Raspberry Pi Pico Models  
+✅ File icon support in the Explorer  
+✅ Lightweight and easy to use  
+✅ File extension: `.pcy`
+
+---
+
+### 🟠 Requirements:
+
+- Download the firmware files (`procyon_core.mpy`, `config.txt`, and `main.py`) from the GitHub repository (link below).  
+- Install the **MicroPico** extension by Paulober in VS Code.  
+- Open the Command Palette (`Cmd+Shift+P` on macOS or `Ctrl+Shift+P` on Windows).  
+- Run the command:
+
+~~~
+MicroPico: Initialize MicroPico Project
+~~~
+
+- Connect your Raspberry Pi Pico; its status will appear in the VS Code status bar.  
+- Click **Toggle Mpy FS** in the status bar to open the Pico's file system (Mpy Remote Workspace).  
+- Upload the downloaded firmware files (`procyon_core.mpy`, `config.txt`, and `main.py`) by dragging and dropping them into the Pico file system.
+
+---
+
+### 🟡 Usage:
+
+1️⃣ In the Pico's Mpy Remote Workspace, create a new file with the `.pcy` extension (e.g., `test.pcy`).  
+2️⃣ Write your Procyon code inside the `.pcy` file and save it.  
+3️⃣ Open `config.txt` in the Pico's file system and enter the filename of the `.pcy` script you want to run (e.g., `test.pcy`).  
+4️⃣ Save and close `config.txt`.  
+5️⃣ Open `main.py` and run it by clicking **Run** in the VS Code window.  
+6️⃣ You can have multiple `.pcy` files on the Pico. Update `config.txt` with the desired filename to switch scripts.
+
+---
+
+### 📌 Known Issues
+
+- No known issues at this time.
+
+---
+
+### 📝 Release Notes
+
+#### 1.0.0
+- Initial release.  
+- Added language grammar and icon support for `.pcy` files.  
+- Integrated with MicroPico VS Code extension for seamless file system access.  
+- Included core firmware files to simplify setup.  
+- Supports multiple `.pcy` files with easy script switching through `config.txt`.
+
+---
+
+### 🛠️ Developed by Santosh Andiappa Thaneermalai  
+© 2025 StellarFusion. All rights reserved.
+
+---
+
+Feel free to contribute or report issues via GitHub Issues.  
+Happy coding with Procyon! 🚀
