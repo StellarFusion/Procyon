@@ -62,6 +62,7 @@ MicroPico: Initialize MicroPico Project
 - Supports multiple `.pcy` files with easy script switching through `config.txt`.
 ---
 ### Download Contents
+#### -Download the files from the releases section.
 - Package for download of the .zip files contains:
 ~~~
    3x Firmware files:
