@@ -63,6 +63,7 @@ MicroPico: Initialize MicroPico Project
 ---
 ### Download Contents
 #### -Download the files from the releases section.
+**Download v1.0.0**: https://github.com/StellarFusion/Procyon/releases/tag/V1.0.0
 - Package for download of the .zip files contains:
 ~~~
    3x Firmware files:
@@ -89,4 +90,4 @@ MicroPico: Initialize MicroPico Project
 Feel free to contribute or report issues via GitHub Issues.  
 Happy coding with Procyon! 🚀
 
-**Full Changelog**: https://github.com/StellarFusion/Procyon/commits/V1.0.0
+
