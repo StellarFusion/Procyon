@@ -2,7 +2,7 @@
   <img src="Procyon.svg" width="200" alt="Procyon Logo"/>
 </p>
 
-# Procyon Language  
+# Procyon  
 ###### V1.0.0  
 
 Procyon is a programming language developed specifically for the Raspberry Pi Pico. Procyon targets programmers who are new to the Raspberry Pi Pico and also for experts! It offers simple and understandable syntax for programming.
