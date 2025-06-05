@@ -3,10 +3,9 @@
 </p>
 
 # Procyon  
-###### V1.0.0  
+###### v1.0.0  
 
-Procyon is a programming language developed specifically for the Raspberry Pi Pico. Procyon targets programmers who are new to the Raspberry Pi Pico and also for experts! It offers simple and understandable syntax for programming.
-
+Procyon is a lightweight programming language developed specifically for the Raspberry Pi Pico. It is designed for both beginners and advanced users, offering a simple and intuitive syntax for rapid development.
 ---
 
 ### 🌟 Features:
@@ -42,7 +41,7 @@ MicroPico: Initialize MicroPico Project
 2️⃣ Write your Procyon code inside the `.pcy` file and save it.  
 3️⃣ Open `config.txt` in the Pico's file system and enter the filename of the `.pcy` script you want to run (e.g., `test.pcy`).  
 4️⃣ Save and close `config.txt`.  
-5️⃣ Open `main.py` and run it by clicking **Run** in the VS Code window.  
+5️⃣ Open main.py and click Run in the VS Code window to start executing your .pcy script.
 6️⃣ You can have multiple `.pcy` files on the Pico. Update `config.txt` with the desired filename to switch scripts.
 
 ---
@@ -55,19 +54,38 @@ MicroPico: Initialize MicroPico Project
 
 ### 📝 Release Notes
 
-#### 1.0.0
+#### v1.0.0
 - Initial release.  
 - Added language grammar and icon support for `.pcy` files.  
 - Integrated with MicroPico VS Code extension for seamless file system access.  
 - Included core firmware files to simplify setup.  
 - Supports multiple `.pcy` files with easy script switching through `config.txt`.
-
 ---
-
+### Download Contents
+- Package for download of the .zip files contains:
+~~~
+   3x Firmware files:
+   procyon_core.mpy
+   main.py
+   config.txt
+~~~
+~~~
+   3x Example Files:
+   E01-Blink.pcy
+   E02-Brightness.pcy
+   E03-AnalogBlinkWithMath.pcy
+~~~
+- Package for download of the .rtf files contains:
+~~~
+  1x Procyon Language Contents.rtf
+  -This file has the function of each code block.
+~~~
+---
 ### 🛠️ Developed by Santosh Andiappa Thaneermalai  
-© 2025 StellarFusion. All rights reserved.
+   © 2025 StellarFusion. All rights reserved.
 
----
-
+-----
 Feel free to contribute or report issues via GitHub Issues.  
 Happy coding with Procyon! 🚀
+
+**Full Changelog**: https://github.com/StellarFusion/Procyon/commits/V1.0.0
