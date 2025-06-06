@@ -3,7 +3,7 @@
 </p>
 
 # Procyon  
-###### v1.0.0  
+###### v1.0.1 
 
 Procyon is a lightweight programming language developed specifically for the Raspberry Pi Pico. It is designed for both beginners and advanced users, offering a simple and intuitive syntax for rapid development.
 ---
@@ -54,7 +54,7 @@ MicroPico: Initialize MicroPico Project
 
 ### 📝 Release Notes
 
-#### v1.0.0
+#### v1.0.1
 - Initial release.  
 - Added language grammar and icon support for `.pcy` files.  
 - Integrated with MicroPico VS Code extension for seamless file system access.  
